@@ -1,7 +1,6 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { ReactElement } from 'react';
 
-function App() {
+function App(): ReactElement {
   return (
     <div className="App">
       <h1>Hello Vane!</h1>
