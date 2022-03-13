@@ -1,9 +1,10 @@
 import React, { ReactElement } from 'react';
+import { Typography } from '@mui/material';
 
 function App(): ReactElement {
   return (
     <div className="App">
-      <h1>Hello Vane!</h1>
+      <Typography variant="h1">Hello Vane!</Typography>
     </div>
   );
 }
