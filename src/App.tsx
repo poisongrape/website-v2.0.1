@@ -1,10 +1,10 @@
 import React, { ReactElement } from 'react';
-import { Typography } from '@mui/material';
+import AppRoutes from './AppRoutes';
 
 function App(): ReactElement {
   return (
     <div className="App">
-      <Typography variant="h1">Hello Vane!</Typography>
+      <AppRoutes />
     </div>
   );
 }
